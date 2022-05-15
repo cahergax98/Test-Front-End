@@ -1,0 +1,24 @@
+.my-acount {
+  width: 17%;
+  display: inline-block;
+}
+
+.my-acount-btn {
+  text-decoration: none;
+  text-align: left;
+  font: normal normal normal 13px/18px Nunito;
+  letter-spacing: 0px;
+  color: #7A7A7A;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.my-acount .user-icon {
+  color: black;
+  height: 20px;
+}
+
+.my-acount .simpleText {
+  margin-left: 10px;
+}

@@ -1,0 +1,36 @@
+.cart {
+  display: inline-block;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.cart-btn {
+  text-decoration: none;
+  text-align: left;
+  font: normal normal bold 10px/26px Nunito;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-icon {
+  color: black;
+  height: 20px;
+}
+
+.cart-counter {
+  width: 15px;
+  height: 15px;
+  background: red;
+  color: white;
+  font-size: 11px;
+  display: inline-flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  margin-left: 10px;
+}

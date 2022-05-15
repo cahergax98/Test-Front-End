@@ -7,17 +7,3 @@
 .block {
   width: 33%;
 }
-.home-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40%;
-}
-
-.home-btn img {
-  width: 200px;
-}
-
-.block.action-btns {
-  width: 15%;
-}
