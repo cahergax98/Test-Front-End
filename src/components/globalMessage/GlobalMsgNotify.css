@@ -1,0 +1,9 @@
+.global-notify-msg-container.danger {
+  background: rgb(248, 107, 107);
+  width: 200px;
+  height: 50px;
+}
+
+.danger .close-icon {
+  color: white;
+}

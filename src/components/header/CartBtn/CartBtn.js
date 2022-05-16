@@ -1,16 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './CartBtn.css';
+import { CartContext } from '../../cart/CartContext';
 
 const CartBtn = () => {
-  let counter = 1;
+  const { cart } = useContext(CartContext);
+
   return (
     <>
       <div className="cart">
         <a href="/cart" className="cart-btn">
           <FontAwesomeIcon className="cart-icon" icon={faShoppingCart} />
-          <span className="cart-counter">{counter}</span>
+          {cart.counter > 0 && <span className="cart-counter">{cart.counter}</span>}
         </a>
       </div>
     </>
