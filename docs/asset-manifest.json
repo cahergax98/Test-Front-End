@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60203b44.css",
+    "main.js": "/static/js/main.3f43e37e.js",
+    "static/media/corebiz-logo.png": "/static/media/corebiz-logo.d47c427fb02db0735bc4.png",
+    "static/media/site-logo-corebiz-preto-cinza.svg": "/static/media/site-logo-corebiz-preto-cinza.5e811ee27d5150535531d889f22fab21.svg",
+    "index.html": "/index.html",
+    "main.60203b44.css.map": "/static/css/main.60203b44.css.map",
+    "main.3f43e37e.js.map": "/static/js/main.3f43e37e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60203b44.css",
+    "static/js/main.3f43e37e.js"
+  ]
+}
