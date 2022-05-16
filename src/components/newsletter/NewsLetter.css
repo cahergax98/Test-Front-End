@@ -1,0 +1,82 @@
+.news-letter-container {
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  padding: 16px 0 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-letter {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.news-letter-title {
+  text-align: center;
+  font: normal normal 900 22px/24px Lato;
+  letter-spacing: 0px;
+  color: #333333;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.news-letter-form-container {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  text-align: left;
+  font: normal normal bold 12px/14px Lato;
+  color: #585858;
+  width: 100%;
+}
+
+#news-letter-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.news-letter-form-group {
+  min-height: 75px;
+}
+
+.error-msg {
+  margin: 0;
+  color: red;
+  margin-top: 15px;
+}
+
+.news-letter-container input {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  padding: 14px 0 17px 16px;
+  border: none;
+  width: 280px;
+  outline: none;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.news-letter-container input::placeholder {
+  text-align: left;
+  font: normal normal bold 12px/14px Lato;
+  color: #585858;
+}
+
+.news-letter-button {
+  text-align: center;
+  font: normal normal bold 16px/50px Lato;
+  color: #FFFFFF;
+  background: black;
+  appearance: none;
+  border: none;
+  width: 140px;
+  height: 48px;
+  padding: 0;
+  cursor: pointer;
+  height: 50px;
+}

@@ -85,20 +85,3 @@ const Product = (props) => {
 }
 
 export default Product
-
-/*
-{
-    "productId": 1,
-    "productName": "SAPATO FLOATER PRETO",
-    "stars": 1,
-    "imageUrl": "https://corebiz-test.herokuapp.com/images/product-1.png",
-    "listPrice": null,
-    "price": 25990,
-    "installments": [
-        {
-            "quantity": 9,
-            "value": 2887
-        }
-    ]
-}
-*/
