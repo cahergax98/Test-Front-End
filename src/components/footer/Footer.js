@@ -1,11 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHeadphones } from '@fortawesome/free-solid-svg-icons';
-import corebizLogo from './../../imgs/site-logo-corebiz-preto-cinza.svg';
 import vTexLogo from './../../imgs/vtex.png';
 import './Footer.css';
 
 const Footer = () => {
+  const corebizLogo = 'https://cahergax98.github.io/Test-Front-End/static/media/site-logo-corebiz-preto-cinza.5e811ee27d5150535531d889f22fab21.svg';
   return (
     <>
       <div className="footer-container">
